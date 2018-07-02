@@ -431,7 +431,7 @@ helps['acr build'] = """
     examples:
         - name: Queue a local context, validating the build is successful, without pushing to the registry.
           text: >
-            az acr build -r MyRegistry .
+            az acr build -r MyRegistry --no-push .
 """
 
 helps['acr import'] = """
